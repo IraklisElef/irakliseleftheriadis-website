@@ -1,0 +1,113 @@
+.hero-header {
+	background: url('../images/main_image.png');
+	background-position: 95% 5%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #000000;
+	padding:300px 0 300px 0;
+	height:760;
+}
+.hero-header h1 {
+	font-size: 60px;
+	color: #fff;
+	line-height: 1.2;
+	font-weight: 800;
+}
+.hero-header h1 span {
+	color:#00A0EA;
+}
+.hero-header h3 {
+	font-size: 30px;
+	font-weight: 400;
+	margin:0;
+	padding:0;
+	opacity:0.5;
+	color: #E04343;
+	letter-spacing: 18px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.hero-header h3 span {
+	font-size: 20px;
+	margin:0;
+	padding:0;
+	opacity: 1;
+	color: #FFFFFF;
+	letter-spacing: 18px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.hero-header p {
+	letter-spacing:1px;
+	color:#fff;
+	font-size: 15px;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.flip {
+  -webkit-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip;
+}
+
+.delay-05s {
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+	visibility:visible;
+}
