@@ -61,7 +61,7 @@
 	position: absolute;
 	bottom: 10px;
 	right: 10px;
-	background-color: #00A0EA;
+	background-color: var(--button-bg-color, #00A0EA); /* Default color is #00A0EA */
 	color: #fff;
 	padding: 10px 20px;
 	border: none;
